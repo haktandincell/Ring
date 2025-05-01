@@ -3,6 +3,7 @@
 [Bb]uild/
 [Bb]uilds/
 obj/
+.VS/
 UserSettings/
 MemoryCaptures/
 Logs/
@@ -23,3 +24,4 @@ Logs/
 !Assets/
 !Packages/
 !ProjectSettings/
+.vs/
