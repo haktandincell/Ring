@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb16ea0cb405675478c3d2719d7ad589
+guid: 2247c4b79787b3c4e96c1f42caec2cd2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5895682596301647786
-    second: 8612f6deed184fcc9d835125e71eb609[1]_0
+      213: -4394375625611533110
+    second: deneme-Photoroom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 8612f6deed184fcc9d835125e71eb609[1]_0
+      name: deneme-Photoroom_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 46
-        height: 98
+        width: 438
+        height: 584
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 650dcf25ae35e2ea0800000000000000
-      internalID: -5895682596301647786
+      spriteID: ac42ac1a6aa0403c0800000000000000
+      internalID: -4394375625611533110
       vertices: []
       indices: 
       edges: []
