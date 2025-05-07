@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class Spawner2 : MonoBehaviour
+public class Spawner4 : MonoBehaviour
 {
     public GameObject arabaPrefab;
     public Sprite[] arabaSpritelari;
     public float spawnZamani = 1.5f;
 
-    private float[] seritler = new float[] { 3.84f, 6.53f };
+    private float[] seritler = new float[] { 6.57f, 8.84f };
 
     void Start()
     {
@@ -21,7 +21,7 @@ public class Spawner2 : MonoBehaviour
             return;
         }
 
-        float rastgeleX = Random.Range(-118f, -53f);
+        float rastgeleX = Random.Range(-138f, -107f);
         int seritIndex = Random.Range(0, seritler.Length);
         float secilenY = seritler[seritIndex];
         Vector3 pozisyon = new Vector3(rastgeleX, secilenY, 0f);
