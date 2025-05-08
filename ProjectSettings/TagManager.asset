@@ -7,6 +7,18 @@ TagManager:
   - finish
   - car
   - destroy
+  - destroy3
+  - destroy4
+  - destroy2
+  - destroy5
+  - destroy6
+  - destroy7
+  - destroy8
+  - destroy9
+  - destroy10
+  - destroy11
+  - destroy12
+  - kamera
   layers:
   - Default
   - TransparentFX
