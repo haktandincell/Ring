@@ -26,7 +26,7 @@ public class Spawner4 : MonoBehaviour
         float secilenY = seritler[seritIndex];
         Vector3 pozisyon = new Vector3(rastgeleX, secilenY, 0f);
 
-        GameObject yeniAraba = Instantiate(arabaPrefab, pozisyon, Quaternion.Euler(0f, 0f, 270f));
+        GameObject yeniAraba = Instantiate(arabaPrefab, pozisyon, Quaternion.Euler(0f, 0f, 90f));
 
         // Sprite deðiþtir
         SpriteRenderer sr = yeniAraba.GetComponent<SpriteRenderer>();

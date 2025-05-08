@@ -175,5 +175,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 365491ebf2494a34a99b1565da57b952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hiz: 5
-  yokOlmaX: -380
+  hiz: 8

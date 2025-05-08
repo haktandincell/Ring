@@ -6,7 +6,7 @@ public class Spawner8 : MonoBehaviour
     public Sprite[] arabaSpritelari;
     public float spawnZamani = 1.5f;
 
-    private float[] seritler = new float[] { 0.3f, -2.09f };
+    private float[] seritler = new float[] { -8.5f, -10.7f };
 
     void Start()
     {
@@ -26,7 +26,7 @@ public class Spawner8 : MonoBehaviour
         float secilenY = seritler[seritIndex];
         Vector3 pozisyon = new Vector3(rastgeleX, secilenY, 0f);
 
-        GameObject yeniAraba = Instantiate(arabaPrefab, pozisyon, Quaternion.Euler(0f, 0f, 90f));
+        GameObject yeniAraba = Instantiate(arabaPrefab, pozisyon, Quaternion.Euler(0f, 0f, 270f));
 
         // Sprite deðiþtir
         SpriteRenderer sr = yeniAraba.GetComponent<SpriteRenderer>();
