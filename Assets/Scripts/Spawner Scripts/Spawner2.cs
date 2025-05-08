@@ -5,6 +5,7 @@ public class Spawner2 : MonoBehaviour
     public GameObject arabaPrefab;
     public Sprite[] arabaSpritelari;
     public float spawnZamani = 1.5f;
+    public float kontrolYaricapi = 0.5f; // Çakýþma kontrol yarýçapý
 
     private float[] seritler = new float[] { 4.06f, 6.53f };
 
@@ -25,7 +26,12 @@ public class Spawner2 : MonoBehaviour
         int seritIndex = Random.Range(0, seritler.Length);
         float secilenY = seritler[seritIndex];
         Vector3 pozisyon = new Vector3(rastgeleX, secilenY, 0f);
-
+        Collider2D varOlan = Physics2D.OverlapCircle(pozisyon, kontrolYaricapi);
+        if (varOlan != null)
+        {
+            // Orada zaten bir obje var, spawnlama
+            return;
+        }
         GameObject yeniAraba = Instantiate(arabaPrefab, pozisyon, Quaternion.Euler(0f, 0f, 90f));
 
         // Sprite deðiþtir

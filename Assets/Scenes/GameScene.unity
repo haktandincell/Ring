@@ -263,6 +263,7 @@ MonoBehaviour:
   - {fileID: 5125437301732648092, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!1 &76212139
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,6 +320,7 @@ MonoBehaviour:
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 5125437301732648092, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!1 &97337788
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +890,7 @@ MonoBehaviour:
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 734779486150983324, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!4 &451416501
 Transform:
   m_ObjectHideFlags: 0
@@ -1196,7 +1199,7 @@ Transform:
   m_GameObject: {fileID: 494726675}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: -443.3, y: -8.9, z: -10}
+  m_LocalPosition: {x: -455.32, y: -8.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1376,7 +1379,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: -443.3, y: -8.9, z: -10}
+  m_LocalPosition: {x: -455.32, y: -8.9, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1774,6 +1777,7 @@ MonoBehaviour:
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 2040788312946495712, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!1 &668023394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,6 +2094,7 @@ MonoBehaviour:
   - {fileID: 734779486150983324, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 5125437301732648092, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!1 &873361245
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2225,7 @@ MonoBehaviour:
   - {fileID: 5125437301732648092, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!4 &910321314
 Transform:
   m_ObjectHideFlags: 0
@@ -2758,7 +2764,7 @@ Transform:
   m_GameObject: {fileID: 1255115120}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: -446.3, y: -8.9, z: 0}
+  m_LocalPosition: {x: -458.32, y: -8.9, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3226,6 +3232,7 @@ MonoBehaviour:
   - {fileID: 5747042927057158140, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 5125437301732648092, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!1 &1474469621
 GameObject:
   m_ObjectHideFlags: 0
@@ -3771,6 +3778,7 @@ MonoBehaviour:
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: -8623536388752671716, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!1 &1723976840
 GameObject:
   m_ObjectHideFlags: 0
@@ -4114,6 +4122,7 @@ MonoBehaviour:
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 2040788312946495712, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!1 &2125347259
 GameObject:
   m_ObjectHideFlags: 0
@@ -4170,6 +4179,7 @@ MonoBehaviour:
   - {fileID: 8521202552791303271, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   - {fileID: 5125437301732648092, guid: 94e04679fba4c92429530b6739c067ab, type: 3}
   spawnZamani: 2
+  kontrolYaricapi: 0.5
 --- !u!212 &16491873425782937
 SpriteRenderer:
   m_ObjectHideFlags: 0
