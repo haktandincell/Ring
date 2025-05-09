@@ -19,6 +19,8 @@ TagManager:
   - destroy11
   - destroy12
   - kamera
+  - Donus
+  - yayaGecti
   layers:
   - Default
   - TransparentFX

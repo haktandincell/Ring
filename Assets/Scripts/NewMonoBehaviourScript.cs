@@ -10,7 +10,7 @@ public class CinemachineRotationSwitcher : MonoBehaviour
     public void Start()
     {
         vcam = GetComponent<CinemachineCamera>();     
-        rotationComposer = vcam.GetComponent<CinemachineRotationComposer>();
+      
        
         DisableAllRotationControls();
     }

@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class ArabaKontrol : MonoBehaviour
@@ -39,5 +40,13 @@ public class ArabaKontrol : MonoBehaviour
         Vector2 ileriYonu = transform.up * Vector2.Dot(rb.linearVelocity, transform.up);
         Vector2 yanalYonu = transform.right * Vector2.Dot(rb.linearVelocity, transform.right);
         rb.linearVelocity = ileriYonu + yanalYonu * driftFaktoru;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("yayaGecti"))
+        {
+            Debug.Log("Çarptý");
+        }
     }
 }

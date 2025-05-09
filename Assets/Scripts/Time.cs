@@ -1,7 +1,8 @@
 using UnityEngine;
 using TMPro; // TextMeshPro kullanýyorsan
+using UnityEngine.SceneManagement; 
 
-public class Zamanlayici : MonoBehaviour
+public class Times : MonoBehaviour
 {
     public float toplamSure = 10f;
     public TextMeshProUGUI zamanText; // Eðer normal Text kullanýyorsan Text kullan
@@ -18,17 +19,16 @@ public class Zamanlayici : MonoBehaviour
     {
         if (sayacAktif)
         {
-            zamanText.text = "Kalan Süre: ";
             kalanSure -= Time.deltaTime;
 
             if (kalanSure <= 0)
             {
                 kalanSure = 0;
                 sayacAktif = false;
-                // Burada süre bitince yapýlacak iþlemi yaz (mesela oyun bitir)
-            }
+                SceneManager.LoadScene(2); // GameOver sahnesine geçiþ yap
 
-            zamanText.text += Mathf.CeilToInt(kalanSure).ToString();
+            }
+            zamanText.text = "Kalan Süre: "+Mathf.CeilToInt(kalanSure).ToString();
         }
     }
 }

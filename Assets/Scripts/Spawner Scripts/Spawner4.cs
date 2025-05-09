@@ -7,7 +7,7 @@ public class Spawner4 : MonoBehaviour
     public float spawnZamani = 1.5f;
     public float kontrolYaricapi = 0.5f; // Çakýþma kontrol yarýçapý
 
-    private float[] seritler = new float[] { 6.57f, 8.84f };
+    private float[] seritler = new float[] {-5.5f, -7.7f };
 
     void Start()
     {

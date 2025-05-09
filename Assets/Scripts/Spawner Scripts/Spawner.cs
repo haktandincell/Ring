@@ -7,7 +7,7 @@ public class RandomCarSpawner : MonoBehaviour
     public float spawnZamani = 1.5f;
     public float kontrolYaricapi = 0.5f; // Çakýþma kontrol yarýçapý
 
-    private float[] seritler = new float[] { 11.68f, 13.81f };
+    private float[] seritler = new float[] { -0.4f, -2.67f };
 
     void Start()
     {
